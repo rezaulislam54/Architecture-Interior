@@ -39,7 +39,7 @@
     <section>
         <div class="hero min-h-screen" style="background-image: url(images/bacground.jpg);">
             <div class="hero-overlay bg-opacity-50"></div>
-                <div class="hero-content  text-center max-w-[1140px] mx-auto">
+                <div class="hero-content  text-center max-w-[1140px] mx-auto hidden md:block">
                     <div >    
                         <h1 class="font-semibold text-5xl text-white mb-8">Discover best properties in one place</h1>
                         
@@ -93,7 +93,7 @@
                      Submit Property
                 </button>
 
-                <div class="absolute -bottom-6 left-0 flex  gap-x-4 bg-white py-2 pr-6 ">
+                <div class="lg:absolute -bottom-6 left-0 lg:flex  gap-x-4 bg-white py-2 pr-6 ">
                     <div class="flex border text-center ">
                         <img class="bg-cover w-28 h-[70px]"  src="images/home1.jpg" alt="">
                         <h2 class="text-[16px] py-3 px-8 mt-1 ">Homes</h2>
@@ -115,7 +115,195 @@
         </div>
     </section>
 
+    <section class="my-20">
+        <div class="text-center">
+            <h2 class="text-[20px]">Discover</h2>
+            <h1 class="text-4xl font-semibold">Popular Property</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 gap-5">
+
+            <!-- 1st card -->
+
+            <div class="bg-white hover:duration-700 border shadow-lg hover:shadow-2xl relative">
+                <div class="absolute top-5 left-5 text-white bg-blue-700 rounded-full px-3">
+                    <h2>OSTRAVA</h2>
+                </div>
+                <div class="absolute top-52 left-6 text-white font-bold">
+                    <h2>RENT</h2>
+                </div>
+                <div class="absolute top-52 right-6 text-[20px] text-white font-bold">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                
+                <img src="images/popular1.jpg" alt="">
+                <div class="px-6">
+                    <h1 class="text-[25px] font-medium mt-4">Primrose House</h1>
+                    <p class="my-4 text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="flex justify-between items-center pr-10 text-[17px]">
+                        <p>Bedrooms: 3</p>
+                        <p>Bedrooms: 3</p>
+                        <p>80m²</p>
+                    </div>
+                      <div class="divider"></div> 
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-blue-700 font-semibold text-xl">$35,000 </h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+
+            <div class="bg-white shadow-lg border hover:shadow-2xl relative">
+                <div class="absolute top-5 left-5 text-white bg-blue-700 rounded-full px-3">
+                    <h2>ASTRA</h2>
+                </div>
+                <div class="absolute top-52 left-6 text-white font-bold">
+                    <h2>SALE</h2>
+                </div>
+                <div class="absolute top-52 right-6 text-[20px] text-white font-bold">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                
+                <img src="images/popular2.jpg" alt="">
+                <div class="px-6">
+                    <h1 class="text-[25px] font-medium mt-4">Primrose House</h1>
+                    <p class="my-4 text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="flex justify-between items-center pr-10 text-[17px]">
+                        <p>Bedrooms: 2</p>
+                        <p>Bedrooms: 1</p>
+                        <p>90m²</p>
+                    </div>
+                      <div class="divider"></div> 
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-blue-700 font-semibold text-xl">$125,000 </h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+
+
+            <div class="bg-white shadow-lg border hover:shadow-2xl relative">
+                <div class="absolute top-5 left-5 text-white bg-blue-700 rounded-full px-3">
+                    <h2>VENNA</h2>
+                </div>
+                <div class="absolute top-52 left-6 text-white font-bold">
+                    <h2>RENT</h2>
+                </div>
+                <div class="absolute top-52 right-6 text-[20px] text-white font-bold">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                
+                <img src="images/popular3.jpg" alt="">
+                <div class="px-6">
+                    <h1 class="text-[25px] font-medium mt-4">Primrose House</h1>
+                    <p class="my-4 text-[14px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="flex justify-between items-center pr-10 text-[17px]">
+                        <p>Bedrooms: 4</p>
+                        <p>Bedrooms: 2</p>
+                        <p>60m²</p>
+                    </div>
+                      <div class="divider"></div> 
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-blue-700 font-semibold text-xl">$75,000 </h3>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="">
+
+        <div class="text-center">
+            <h2 class="text-[20px]">Explore Features</h2>
+            <h1 class="text-4xl font-semibold">Service You Need</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 my-10">
+
+            <!-- 1st card -->
+
+            <div class="text-center border justify-center items-center pt-12 pb-7 shadow-lg hover:shadow-2xl hover:duration-500 ">
+                <div class="bg-blue-500 text-white rounded-full w-20 h-20 mx-auto flex justify-center items-center  ">
+                    <i class="fa-solid fa-house-chimney text-[33px]"></i>
+                </div>
+                <div>
+                    <h2 class="text-[25px] font-semibold my-5">Perfect Tools</h2>
+                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh</p>
+                </div>
+            </div>
+
+            <!-- 2nd card -->
+
+            <div class="text-center border justify-center items-center pt-12 pb-7 shadow-lg hover:shadow-2xl hover:duration-500">
+                <div class="bg-blue-500 text-white rounded-full w-20 h-20 mx-auto flex justify-center items-center ">
+                    <i class="fa-brands fa-searchengin text-[33px]"></i>
+                </div>
+                <div>
+                    <h2 class="text-[25px] font-semibold my-5">Search in Click</h2>
+                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh</p>
+                </div>
+            </div>
+
+            <!-- 3nd card -->
+
+            <div class="text-center border justify-center items-center pt-12 pb-7 shadow-lg hover:shadow-2xl hover:duration-500 ">
+                <div class="bg-blue-500 text-white rounded-full w-20 h-20 mx-auto flex justify-center items-center ">
+                    <i class="fa-solid fa-lock text-[33px]"></i>
+                </div>
+                <div>
+                    <h2 class="text-[25px] font-semibold my-5">User Control</h2>
+                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh</p>
+                </div>
+            </div>
+
+            <!-- 4th card  -->
+
+            <div class="text-center border justify-center items-center pt-12 pb-7 shadow-lg hover:shadow-2xl hover:duration-500">
+                <div class="bg-blue-500 text-white rounded-full w-20 h-20 mx-auto flex justify-center items-center ">
+                    <i class="fa-regular fa-star text-[33px]"></i>
+                </div>
+                <div>
+                    <h2 class="text-[25px] font-semibold my-5">5 Star Support</h2>
+                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="mt-20">
+        <div class="text-center">
+            <h2 class="text-[20px]">Explore Features</h2>
+            <h1 class="text-4xl font-semibold">Service You Need</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+            <div>
+                <img class="h-[360px]" src="images/galary.jpg" alt="">
+                <a href=""><h2 class="text-center text-[25px] font-semibold mt-3">Sheffield</h2></a>
+            </div>
+            <div>
+                <img class="h-[360px]" src="images/gelary3.jpg" alt="">
+                <a href=""><h2 class="text-center text-[25px] font-semibold mt-3">Manchester</h2></a>
+            </div>
+            <div>
+                <img class="h-[360px]" src="images/galery2.jpg" alt="">
+                <a href=""><h2 class="text-center text-[25px] font-semibold mt-3">London</h2></a>
+            </div>
+            
+
+        </div>
+    </section>
 </main>
+
 
 </body>
 </html>
